@@ -1,0 +1,31 @@
+.comments__container-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 768px) {
+    .comments__container-text {
+        order: 2;
+    }
+         
+}
+@media (max-width : 425px) {
+         
+}
+@media (max-width : 390px) {
+    .comments__container-text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+          
+}
+@media (max-width : 320px) {
+         
+}

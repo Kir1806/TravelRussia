@@ -1,0 +1,27 @@
+.header__logo {
+    width: 177px;
+    /*min-height: 52px;*/
+    z-index: 1;
+    background-repeat: no-repeat;
+    margin-right: auto; /*calc(100% - 177px); /*78%; /*930px*/
+    /*border: 1px solid red;*/
+}
+@media (min-width : 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media (max-width : 768px) {
+
+    /* стили для планшета */
+}
+@media (max-width : 425px) {
+    .header__logo {
+        width: 144px;
+    }
+    /* стили для широкого смартфона */
+}
+@media (max-width : 375px) {
+    
+}
+@media (max-width : 320px) {
+    /* стили для малого смартфона */
+}

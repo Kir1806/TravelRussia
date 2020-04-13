@@ -1,0 +1,38 @@
+@import url('../cover/__title/cover__title.css');
+@import url('../cover/__subtitle/cover__subtitle.css');
+@import url('../cover/__link/cover__link.css');
+.cover {
+    width: 92%; /*1184px;*/
+    /*height: 594px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102px;
+    background-image: url(../../images/cover.jpg);
+    background-size: cover;    
+    border: 1px solid #2A2C2F;    
+}
+.cover:hover {
+    /*transition: ease 1s; 
+    opacity: .8;*/
+    box-shadow:0 0 0 592px rgba(0, 0, 0, 0.8) inset;
+}
+@media (max-width : 1040px) {
+    .cover {
+        width: 100%;
+    } 
+}
+@media (max-width : 768px) {
+         
+}
+@media (max-width : 425px) {
+         
+}
+@media (max-width : 390px) {
+    .cover {        
+        margin-top: 48px;
+    }
+          
+}
+@media (max-width : 320px) {
+         
+}

@@ -1,0 +1,36 @@
+@import url('../__place/__block_one/place__block_one.css');
+@import url('../__place/__block_two/place__block_two.css');
+
+.place {
+    width: 100%; /*984px;*/
+    margin-top: 72px;
+    /*display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: fit-content(10%) auto;
+    row-gap: 60px;*/    
+    /*border: 1px solid orange;*/
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 768px) {
+         
+}
+@media (max-width : 525px) {
+    .place {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width : 390px) {
+    .place {
+        margin-top: 44px;        
+    }
+          
+}
+@media (max-width : 320px) {
+         
+}

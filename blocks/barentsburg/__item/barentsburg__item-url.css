@@ -1,0 +1,19 @@
+.barentsburg__item-url {
+    width: 380px;
+    flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;    
+    margin-top: 48px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    color: #AAAAAA;
+    /*border: 1px solid red;*/
+}
+.barentsburg__item-url:hover {
+    transition: ease 1s; 
+    opacity: .7;
+}

@@ -1,0 +1,26 @@
+.place__block_one_link {
+    /*display: inline-block;*/
+    width: 49%;/*484px;*/
+    height: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    /*border: 1px solid green;*/
+    grid-column: 2;
+    grid-row: 2;
+    grid-area: link;
+}
+.place__block_one_link:hover {
+    transition: ease 1s; 
+    opacity: .7;
+}
+@media (max-width : 525px) {
+    .place__block_one_link {
+        display: none;
+    }
+}

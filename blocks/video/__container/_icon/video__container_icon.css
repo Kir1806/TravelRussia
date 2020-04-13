@@ -1,0 +1,33 @@
+.video__container_icon {
+    width: 41px;
+    height: 41px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-image: url(../../../../images/icon_play.svg);
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 777px) {
+    .video__container_icon {
+        
+        margin-top: 25px;
+        margin-left: 25px;
+        
+    }
+         
+}
+@media (max-width : 425px) {
+         
+}
+@media (max-width : 375px) {
+          
+}
+@media (max-width : 330px) {
+    .video__container_icon {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+         
+}

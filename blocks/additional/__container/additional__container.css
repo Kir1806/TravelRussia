@@ -1,0 +1,10 @@
+@import url('../__container/_item/additional__container-item.css');
+.additional__container {
+    width: 1184px;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+}

@@ -1,0 +1,35 @@
+@import url('../_item/comments__container-image.css');
+@import url('../_item/comments__container-text.css');
+@import url('../_item/comments__container-signature.css');
+.comments__container-item {
+    width: 32%; /*382px;*/
+    /*height: 283px;*/
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 768px) {
+    .comments__container-item {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 47px;
+    }
+         
+}
+@media (max-width : 425px) {
+    .comments__container-item {
+        width: 100%;
+        margin-top: 10px;
+    }
+         
+}
+@media (max-width : 375px) {
+          
+}
+@media (max-width : 320px) {
+         
+}

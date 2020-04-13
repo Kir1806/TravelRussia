@@ -1,0 +1,33 @@
+@import url('../__content-row/__text/content-row__text.css');
+@import url('../__content-row/__text/content-row__text_author.css');
+.content-row {
+    display: flex;
+    width: 83%; /*984px;*/
+    margin-top: 35px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    /*min-height: 154px;*/
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+    
+    }
+    @media (max-width : 777px) {
+    .content-row {
+        width: 100%;
+    }
+}
+    @media (max-width : 425px) {
+             
+    }
+    @media (max-width : 390px) {
+        .content-row {
+            width: 93%;
+            margin-left: auto;
+            margin-right: auto;
+        }              
+    }
+    @media (max-width : 320px) {
+             
+    }

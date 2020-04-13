@@ -1,0 +1,31 @@
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__caption/lead__caption.css');
+.lead {
+    width: 83%; /*985px;*/
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+    .lead {
+        width: 93%;
+}
+    }
+@media (max-width : 777px) {
+    .lead {
+        width: 100%;
+    }
+}
+@media (max-width : 425px) {
+         
+}
+@media (max-width : 375px) {
+    
+          
+}
+@media (max-width : 320px) {
+         
+}

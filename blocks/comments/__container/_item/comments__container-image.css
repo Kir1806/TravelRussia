@@ -1,0 +1,25 @@
+.comments__container-image {
+    width: 98px;
+    height: 98px;
+    border-radius: 49px;
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 768px) {
+    .comments__container-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+         
+}
+@media (max-width : 425px) {
+         
+}
+@media (max-width : 375px) {
+          
+}
+@media (max-width : 320px) {
+         
+}

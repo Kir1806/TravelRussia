@@ -1,0 +1,20 @@
+.video__container_subtitle {
+    margin-left: 30px;
+    margin-top: 18px                     ;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+@media (max-width : 330px) {
+    .video__container_subtitle {
+        margin-top: 4px;
+    }         
+}
+@media (max-width : 330px) {
+    .video__container_subtitle {
+        margin-left: 16px;
+    }         
+}

@@ -1,0 +1,8 @@
+@import url('../__items/_item/emblem__items-item.css');
+.emblem__items {
+    width: 1184px;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+}

@@ -1,0 +1,34 @@
+@import url('../__container/_item/comments__container-item.css');
+.comments__container {
+    width: 92%; /*1184px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 71px;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+}
+@media (max-width : 1024px) {
+  
+}
+@media (max-width : 768px) {
+    .comments__container {
+        margin-top: 13px;
+        flex-direction: column;
+    }
+         
+}
+@media (max-width : 425px) {
+    .comments__container {
+        margin-top: 42px;        
+    }
+         
+}
+@media (max-width : 375px) {
+    .comments__container {
+        margin-top: 32px;        
+    }          
+}
+@media (max-width : 320px) {
+         
+}

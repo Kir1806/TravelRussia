@@ -1,0 +1,9 @@
+@import url('../__item/barentsburg__item-text.css');
+@import url('../__item/barentsburg__item-url.css');
+@import url('../__item/barentsburg__item-link.css');
+.barentsburg__item {
+    display: flex;
+    justify-content: flex-start;
+    /*width: 1184px;*/
+    /*border: 1px solid red;*/
+}

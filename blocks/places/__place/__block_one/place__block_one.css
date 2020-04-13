@@ -1,0 +1,39 @@
+@import url('../__block_one/_title/place__block_one_title.css');
+@import url('../__block_one/_url/place__block_one_url.css');
+@import url('../__block_one/_link/place__block_one_link.css');
+
+.place__block_one {
+width: 100%;/*984px;*/
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+margin-bottom: 60px;
+flex-wrap: wrap;
+/*grid-template-areas: "title url"
+                     "title link";
+grid-template-columns: 50% 50%;
+grid-template-rows: fit-content(50%) fit-content(5%);*/
+/*border: 1px solid red;*/
+}
+
+@media (max-width : 1024px) {
+    .place__block_one {
+        margin-bottom: 40px;
+    }
+  
+}
+@media (max-width : 768px) {
+         
+}
+@media (max-width : 525px) {
+    .place__block_one {
+        margin-bottom: 32px;
+    }
+         
+}
+@media (max-width : 375px) {
+          
+}
+@media (max-width : 320px) {
+         
+}

@@ -1,0 +1,9 @@
+@import url('../emblem/__title/emblem__title.css');
+@import url('../emblem/__items/emblem__items.css');
+.emblem {
+    width: 1184px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid red;*/
+}

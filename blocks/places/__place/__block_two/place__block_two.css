@@ -1,0 +1,29 @@
+@import url('../__block_two/_image/place__block_two_image.css');
+@import url('../__block_two/_text/place__block_two_text.css');
+.place__block_two {
+    width: 100%; /*984px;*/
+    display: grid;
+    grid-template-areas: "image text"
+                         "image text1";
+    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+    
+    /*grid-template-rows: fit-content(10%) fit-content(50%);*/
+    column-gap: 18px;
+    /*border: 1px solid red;*/
+
+}
+@media (max-width : 768px) {
+    .place__block_two {
+        grid-template-columns: fit-content(52%) fit-content(48%);
+    }
+    
+         
+}
+@media (max-width : 525px) {
+    .place__block_two {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

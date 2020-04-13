@@ -1,0 +1,13 @@
+.additional__container-text {
+    width: 248px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    /*border: 1px solid red;*/
+}
